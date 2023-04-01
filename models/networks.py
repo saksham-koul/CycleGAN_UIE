@@ -3,7 +3,8 @@ import torch.nn as nn
 from torch.nn import init
 import functools
 from torch.optim import lr_scheduler
-from dcpdn import G, G2
+from util.dcpdn import G
+
 
 ###############################################################################
 # Helper Functions
